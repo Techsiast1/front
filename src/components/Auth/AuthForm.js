@@ -71,6 +71,15 @@ const AuthForm = ({ onSubmit, isAdmin }) => {
             type={"email"}
             name="email"
           />
+          <FormLabel sx={labelStyle}>Phone</FormLabel>
+          <TextField
+            value={inputs.phone}
+            onChange={handleChange}
+            margin="normal"
+            variant="standard"
+            type={"number"}
+            name="number"
+          />
           <FormLabel sx={labelStyle}>Password</FormLabel>
           <TextField
             value={inputs.password}
